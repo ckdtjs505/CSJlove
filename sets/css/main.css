@@ -92,7 +92,6 @@
 #book>*>*{
   padding-left: 1rem;
   padding-right: 1rem;
-
 }
 
 
@@ -104,6 +103,10 @@
   border-top-right-radius: 0.4rem;
   border-bottom-left-radius: 0.4rem;
   border-bottom-right-radius: 0.4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
 }
 #book h1{
