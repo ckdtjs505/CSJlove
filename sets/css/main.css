@@ -118,6 +118,11 @@ table {
   display: block;
 
 }
+@media(max-width: 480px){
+  #main .thumbnails{
+    display: block;
+  }
+}
  ol{
   list-style: none;
  }
@@ -128,7 +133,4 @@ table {
    background-image: url("../../image/bg.jpg");
    background-color: #cccccc;
    background-size: cover;
- }
- h3{
-
  }
