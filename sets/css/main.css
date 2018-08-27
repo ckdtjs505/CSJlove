@@ -4,18 +4,10 @@
 */
 
 #wrapper {
-  max-width: 80rem;
+  max-width: 83rem;
   margin: 0 auto;
 }
-/* #wrapper>*{
-  border: 5px solid green;
-}
-#wrapper>*>*{
-  border: 5px solid blue;
-}
-#wrapper>*>*>*{
-  border: 5px solid blue;
-} */
+
 #header{
   text-align: center;
   padding-top: 3rem;
@@ -36,15 +28,15 @@
 }
 
 #header h1{
-  font-weight: 50;
+  font-weight: 1;
   font-size: 1.5rem;
-  font-family: 'Hanna', serif ;
+  font-family: 'NanumGothic', serif ;
   color: rgba(255,255,255, 0.7);
 }
 
 #header h1 strong{
   color: white;
-  font-weight: 50;
+  font-weight: 100;
 }
 
 #main .thumbnails{
@@ -90,6 +82,53 @@
 }
 @media(max-width: 480px){
   #main .thumbnails{
+    display: block;
+  }
+}
+
+#book>*{
+  display: flex;
+}
+#book>*>*{
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+
+#book{
+  padding-top: 0.2rem;
+  font-family: 'NanumGothic', serif ;
+  background-color: rgba(255,255,255,0.3);
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+
+}
+#book h1{
+  text-align: center;
+  font-family: 'Hanna', serif ;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  display: block;
+}
+#book #content #main strong{
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#book #content #feel strong{
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+@media(max-width: 480px){
+  #book>*{
     display: block;
   }
 }
