@@ -1,125 +1,171 @@
-<!DOCTYPE html>
-<html lang="kr" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="하나님안에서 아름다운 사랑을 전하는 커플페이지 입니다. 우리 커플을 통해 하나님의 사랑이 전달되길 바랍니다 ">
-		 <meta name="naver-site-verification" content="1d740260a8c4491f150aa17a3e9259d7408c608a"/>
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
-		<title>진선 커플</title>
-		<link rel="stylesheet" href="sets/css/main.css">
-		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/hanna.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	</head>
-	<body id ="main">
-		<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#">CSJ couple</a>
-		    </div>
-		    <div class="collapse navbar-collapse" id="myNavbar">
-		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#">Home</a></li>
-		        <li><a href="bbs.html">books</a></li>
-		        <li><a href="#">Thanks</a></li>
-		      </ul>
-		    </div>
-		  </div>
-		</nav>
-		<div id="wrapper">
-			<header id ="header">
-				<span class="main_image">
-					<img id="img" src="image/main_image.jpg" alt=""></span>
-				<h1>하나님안에서 아름다운 사랑을 전하는 커플 <br> 우리 커플을 통해 하나님의 사랑이 전달되길 바랍니다</h1>
-			</header>
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-			<section  class="thumbnails">
-				<div>
-					<a href="image/fulls/20180828_3.jpg">
-						<img src="image/thumbs/20180828_3.jpg" alt="" />
-						<h3>2018.8.28(일)</h3>
-					</a>
-					<a href="image/fulls/01.jpg">
-						<img src="image/thumbs/01.jpg" alt="" />
-						<h3>2018.8.27(일)</h3>
-					</a>
-					<a href="image/fulls/02.jpg">
-						<img src="image/thumbs/02.jpg" alt="" />
-						<h3>2018.8.20(월)</h3>
-					</a>
-					<a href="image/fulls/03.jpg">
-						<img src="image/thumbs/03.jpg" alt="" />
-						<h3>2018.8.17(금)</h3>
-					</a>
+#wrapper {
+  max-width: 83rem;
+  margin: 0 auto;
+}
 
-				</div>
-				<div>
-					<a href="image/fulls/20180817.jpg">
-						<img src="image/thumbs/20180817.jpg" alt="" />
-						<h3>2018.8.17(금)</h3>
-					</a>
-					<a href="image/fulls/20180817_2.jpg">
-						<img src="image/thumbs/20180817_2.jpg" alt="" />
-						<h3>2018.8.17(금)</h3>
-					</a>
-					<a href="image/fulls/04.jpg">
-						<img src="image/thumbs/04.jpg" alt="" />
-						<h3>2018.8.15(수)</h3>
-					</a>
-					<a href="image/fulls/20180815.jpg">
-						<img src="image/thumbs/20180815.jpg" alt="" />
-						<h3>2018.8.15(수)</h3>
-					</a>
-					<a href="image/fulls/20180814.jpg">
-						<img src="image/thumbs/20180814.jpg" alt="" />
-						<h3>2018.8.14(화)</h3>
-					</a>
-					<a href="image/fulls/20180810.jpg">
-						<img src="image/thumbs/20180810.jpg" alt="" />
-						<h3>2018.8.10(금)</h3>
-					</a>
+#header{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
+#header .main_image #img{
+  border-radius: 100%;
+  display: block;
+}
 
-				</div>
-				<div>
-					<a href="image/fulls/20180804.jpg">
-						<img src="image/thumbs/20180804.jpg" alt="" />
-						<h3>2018.8.4(토)</h3>
-					</a>
-					<a href="image/fulls/20180730_2.jpg">
-						<img src="image/thumbs/20180730_2.jpg" alt="" />
-						<h3>2018.7.30(월)</h3>
-					</a>
-					<a href="image/fulls/20180730.jpg">
-						<img src="image/thumbs/20180730.jpg" alt="" />
-						<h3>2018.7.30(월)</h3>
-					</a>
-					<a href="image/fulls/20180724_2.jpg">
-						<img src="image/thumbs/20180724_2.jpg" alt="" />
-						<h3>2018.7.24(화)</h3>
-					</a>
-					<a href="image/fulls/20180714.jpg">
-						<img src="image/thumbs/20180714.jpg" alt="" />
-						<h3>2018.7.14(토)</h3>
-					</a>
-				</div>
-			</section>
+#header .main_image{
+  border-radius: 100%;
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: rgba(255,255,255, 0.1);
+  border:1px solid rgba(255,255,255, 0.25);
+}
 
-			<footer>
-				<ol>
-					made by : CS.
-					<li><a href="book.html">독서 나눔</a></li>
-				</ol>
-			</footer>
-		</div>
+#header h1{
+  font-weight: 1;
+  font-size: 1.5rem;
+  font-family: 'NanumGothic', serif ;
+  color: rgba(255,255,255, 0.8);
+}
+
+#header b{
+  color: rgba(255,255,255, 0.9);
+}
+
+#main .thumbnails{
+  display: flex;
+}
+#main .thumbnails>div{
+  flex-grow: 1;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+#main .thumbnails img{
+  width: 100%;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+	border-bottom: 0rem;
+}
+#main .thumbnails h3{
+  border-left:1px ;
+  border-right:1px ;
+  border-bottom:1px ;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  padding: 0.5rem;
+
+  text-align: center;
+  background-color: rgb(255,255,255,0.1);
+  font-size: 1.3rem;
+  font-weight: 10;
+  font-family: 'Hanna', serif ;
+  color: white;
+
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#main .thumbnails a{
+  margin-bottom: 1.5rem;
+	text-decoration: none;
+  display: block;
+
+}
+@media(max-width: 480px){
+  #main .thumbnails{
+    display: block;
+  }
+}
+
+/* #accordion>*{
+  border:1px solid red;
+  background-color: rgba(255,255,255,0.3);
+}
+#accordion>*>*{
+  border:1px solid blue;
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
 
 
-	</body>
-</html>
+#accordion {
+  padding-top: 0.2rem;
+  font-family: 'NanumGothic', serif ;
+  background-color: rgba(255,255,255,0.3);
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  margin: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  padding-right: 1rem;
+
+}
+#accordion h1{
+  text-align: center;
+  font-family: 'Hanna', serif ;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  display: block;
+}
+#accordion .panel-title{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Hanna', serif;
+  font-weight: lighter;
+}
+#accordion #content{
+  display: flex;
+
+}
+#accordion #content >*{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#accordion #content #main strong{
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#accordion #content #feel strong{
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+@media(max-width: 480px){
+  #accordion #content{
+    display: block;
+
+  }
+}
+#collapse1 #content
+{
+
+}
+#mal {
+  margin: auto;
+}
+ ol{
+  list-style: none;
+ }
+ a{
+   text-decoration: none;
+ }
+ body{
+   background-image: url("../../image/bg.jpg");
+   background-color: #cccccc;
+   background-size: cover;
+ }
