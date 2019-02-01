@@ -1,4 +1,4 @@
-# [**CSFrofile**](http://csjlovegrace.ga/)
+# [**CSJlove**](http://csjlovegrace.ga/)
 
 여자친구와의 만남을 웹사이트에 등록하고자 구현
 
